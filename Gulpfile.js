@@ -63,7 +63,7 @@ gulp.task('css', function() {
 // Recarga el navegador cuando hay cambios en el HTML
 gulp.task('html', function() {
     gulp.src('./app/**/*.html')
-        .pipe()
+//        .pipe()
         .pipe(connect.reload());
 });
 
@@ -142,4 +142,5 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', ['server', 'templates', 'inject', 'wiredep', 'watch']);
+//gulp.task('default', ['server']);
 gulp.task('build', ['templates', 'compress', 'copy', 'uncss']);
