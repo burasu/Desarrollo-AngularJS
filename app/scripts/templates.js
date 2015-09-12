@@ -1,0 +1,1 @@
+angular.module("blog.templates", []).run(["$templateCache", function($templateCache) {$templateCache.put("views/post-list.tpl.html","<ul class=\"blog-post-list\">\n    <li class=\"blog-post-link\" ng-repeat=\"post in postlist.posts\">\n        <a ng-href=\"#/post/{{ post.id }}\">{{ post.title }}</a>\n    </li>\n</ul>\n");}]);
