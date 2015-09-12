@@ -15,6 +15,11 @@
                 controller: 'PostListCtrl',
                 controllerAs: 'postlist'
             })
+            .when('/post/:postId', {
+                templateUrl: 'views/post-detail.tpl.html',
+                controller: 'PostDetailCtrl',
+                controllerAs: 'postdetail'
+            })
             .otherwise({
                 redirectTo: '/'
             });
