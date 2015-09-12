@@ -13,6 +13,10 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 
+# Configuracion para ficheros stylus
+[*.styl]
+indent_size = 2
+
 # Configuración para los archivos Markdown
 [*.md]
 trim_trailing_whitespace = false
