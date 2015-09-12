@@ -36,9 +36,20 @@
         this.comments = Comment.query({ postId: $routeParams.postId });
     }
 
+    function PostCreateCtrl(Post)
+    {
+        var self = this;
+
+        this.create = function ()
+        {
+            Post.save(self.post);
+        };
+    }
+
     angular
         .module('blog.controllers')
         .controller('PostListCtrl', PostListCtrl)
-        .controller('PostDetailCtrl', PostDetailCtrl);
+        .controller('PostDetailCtrl', PostDetailCtrl)
+        .controller('PostCreateCtrl', PostCreateCtrl);
 
 })();

@@ -20,6 +20,11 @@
                 controller: 'PostDetailCtrl',
                 controllerAs: 'postdetail'
             })
+            .when('/new', {
+                templateUrl: 'views/post-create.tpl.html',
+                controller: 'PostCreateCtrl',
+                controllerAs: 'postcreate'
+            })
             .otherwise({
                 redirectTo: '/'
             });
