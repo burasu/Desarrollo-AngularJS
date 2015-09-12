@@ -1,0 +1,21 @@
+{
+    "name": "Desarrollo-AngularJS",
+    "version": "0.0.1",
+    "description": "Ejemplo de desarrollo agil y rapido de un proyecto en AngularJS",
+    "bugs": {
+        "url": "https://github.com/burasu/Desarrollo-AngularJS/issues",
+        "email": "burasu@gmail.com"
+    },
+    "license": "MIT",
+    "author": {
+        "name":  "Blas Fernandez",
+        "email": "burasu@gmail.com",
+        "url": "http://blasfernandez.es"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/burasu/Desarrollo-AngularJS"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
