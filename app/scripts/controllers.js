@@ -11,6 +11,7 @@
 
     function PostDetailCtrl($routeParams, Post, Comment, User)
     {
+        console.log('entra');
         this.post = {};
         this.comments = {};
         this.user = {};
