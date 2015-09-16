@@ -7,11 +7,14 @@
 
     function config ($locationProvider, $routeProvider)
     {
-/*        $locationProvider.html5Mode({
+/*
+        $locationProvider.html5Mode({
             enabled: true,
-            requireBase: false
+            requireBase: true
         });
 */
+        $locationProvider.html5Mode(false);
+
         $routeProvider
             .when('/', {
                 templateUrl: 'views/post-list.tpl.html',
